@@ -1,0 +1,15 @@
+rerunFailedScenarioRunner\TestRunner2.class
+runFailedScenarioRunner\TestRunner.class
+runner\TestRunner2.class
+suitRunner\RegressionAndSmokeVTiger.class
+stepDefinition\ActitimeLoginTest.class
+stepDefinition\SwagLabProductBuy.class
+suitRunner\SmokeSuitVtiger.class
+getFailedScenarioRunner\TestRunner.class
+getFailedScenarioRunner\TestRunner1.class
+stepDefinition\ActiTimeMultipleLogin.class
+stepDefinition\SwagLabLogin.class
+stepDefinition\VTigerCompaignTest.class
+stepDefinition\OrangeHrmLoginTest.class
+runner\TestRunner.class
+runner\TestRunner3.class

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="308271" started-at="2023-02-23T16:49:06 IST" finished-at="2023-02-23T16:54:14 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:getFailedScenarioRunner.TestRunner1@3c87521]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:rerunFailedScenarioRunner.TestRunner2@2aece37d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="308271" started-at="2023-02-23T16:49:06 IST" finished-at="2023-02-23T16:54:14 IST">
+      <class name="getFailedScenarioRunner.TestRunner1">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:getFailedScenarioRunner.TestRunner1@3c87521]" name="setUpClass" is-config="true" duration-ms="3047" started-at="2023-02-23T16:49:06 IST" finished-at="2023-02-23T16:49:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:getFailedScenarioRunner.TestRunner1@3c87521]" name="runScenario" duration-ms="41213" started-at="2023-02-23T16:49:09 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-23T16:49:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test the new compaign creation functionality with "<compaignName>""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[VTiger compaign create delete functionality test scenarios]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:getFailedScenarioRunner.TestRunner1@3c87521]" name="runScenario" duration-ms="48743" started-at="2023-02-23T16:49:50 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-23T16:50:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test the new compaign creation functionality with "<compaignName>""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[VTiger compaign create delete functionality test scenarios]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:getFailedScenarioRunner.TestRunner1@3c87521]" name="runScenario" duration-ms="123132" started-at="2023-02-23T16:50:39 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-23T16:52:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test the delete funtionality of compaign"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[VTiger compaign create delete functionality test scenarios]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at stepDefinition.VTigerCompaignTest.verify_that_all_the_created_compaings_are_deleted(VTigerCompaignTest.java:113)
+at ✽.Verify that all the created compaings are deleted(file:///C:/Users/HP/eclipse-workspace/MyBDDCucumberFramework/src/test/resources/features/VTigerCompaign.feature:24)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:getFailedScenarioRunner.TestRunner1@3c87521]" name="tearDownClass" is-config="true" duration-ms="12174" started-at="2023-02-23T16:52:42 IST" finished-at="2023-02-23T16:52:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- getFailedScenarioRunner.TestRunner1 -->
+      <class name="rerunFailedScenarioRunner.TestRunner2">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:rerunFailedScenarioRunner.TestRunner2@2aece37d]" name="setUpClass" is-config="true" duration-ms="154" started-at="2023-02-23T16:52:54 IST" finished-at="2023-02-23T16:52:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:rerunFailedScenarioRunner.TestRunner2@2aece37d]" name="runScenario" duration-ms="72324" started-at="2023-02-23T16:52:54 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-23T16:54:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test the delete funtionality of compaign"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[VTiger compaign create delete functionality test scenarios]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at stepDefinition.VTigerCompaignTest.verify_that_all_the_created_compaings_are_deleted(VTigerCompaignTest.java:113)
+at ✽.Verify that all the created compaings are deleted(file:///C:/Users/HP/eclipse-workspace/MyBDDCucumberFramework/src/test/resources/features/VTigerCompaign.feature:24)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:rerunFailedScenarioRunner.TestRunner2@2aece37d]" name="tearDownClass" is-config="true" duration-ms="7375" started-at="2023-02-23T16:54:07 IST" finished-at="2023-02-23T16:54:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- rerunFailedScenarioRunner.TestRunner2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

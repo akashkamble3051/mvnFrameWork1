@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="264" started-at="2023-02-21T03:29:48 IST" finished-at="2023-02-21T03:29:48 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="264" started-at="2023-02-21T03:29:48 IST" finished-at="2023-02-21T03:29:48 IST">
+      <class name="testngDay2.TestngAnnotations3">
+        <test-method status="PASS" signature="beforeTestCase1()[pri:0, instance:testngDay2.TestngAnnotations3@4c762604]" name="beforeTestCase1" is-config="true" duration-ms="25" started-at="2023-02-21T03:29:48 IST" finished-at="2023-02-21T03:29:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestCase1 -->
+        <test-method status="PASS" signature="beforeClass1()[pri:0, instance:testngDay2.TestngAnnotations3@4c762604]" name="beforeClass1" is-config="true" duration-ms="1" started-at="2023-02-21T03:29:48 IST" finished-at="2023-02-21T03:29:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass1 -->
+        <test-method status="PASS" signature="beforeMethod1()[pri:0, instance:testngDay2.TestngAnnotations3@4c762604]" name="beforeMethod1" is-config="true" duration-ms="1" started-at="2023-02-21T03:29:48 IST" finished-at="2023-02-21T03:29:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod1 -->
+        <test-method status="PASS" signature="testCase1()[pri:0, instance:testngDay2.TestngAnnotations3@4c762604]" name="testCase1" duration-ms="27" started-at="2023-02-21T03:29:48 IST" finished-at="2023-02-21T03:29:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method status="PASS" signature="afterMethod1()[pri:0, instance:testngDay2.TestngAnnotations3@4c762604]" name="afterMethod1" is-config="true" duration-ms="2" started-at="2023-02-21T03:29:48 IST" finished-at="2023-02-21T03:29:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod1 -->
+        <test-method status="PASS" signature="beforeMethod1()[pri:0, instance:testngDay2.TestngAnnotations3@4c762604]" name="beforeMethod1" is-config="true" duration-ms="2" started-at="2023-02-21T03:29:48 IST" finished-at="2023-02-21T03:29:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod1 -->
+        <test-method status="PASS" signature="testCase2()[pri:0, instance:testngDay2.TestngAnnotations3@4c762604]" name="testCase2" duration-ms="6" started-at="2023-02-21T03:29:48 IST" finished-at="2023-02-21T03:29:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method status="PASS" signature="afterMethod1()[pri:0, instance:testngDay2.TestngAnnotations3@4c762604]" name="afterMethod1" is-config="true" duration-ms="2" started-at="2023-02-21T03:29:48 IST" finished-at="2023-02-21T03:29:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod1 -->
+        <test-method status="PASS" signature="beforeMethod1()[pri:0, instance:testngDay2.TestngAnnotations3@4c762604]" name="beforeMethod1" is-config="true" duration-ms="25" started-at="2023-02-21T03:29:48 IST" finished-at="2023-02-21T03:29:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod1 -->
+        <test-method status="PASS" signature="testCase3()[pri:0, instance:testngDay2.TestngAnnotations3@4c762604]" name="testCase3" duration-ms="16" started-at="2023-02-21T03:29:48 IST" finished-at="2023-02-21T03:29:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase3 -->
+        <test-method status="PASS" signature="afterMethod1()[pri:0, instance:testngDay2.TestngAnnotations3@4c762604]" name="afterMethod1" is-config="true" duration-ms="2" started-at="2023-02-21T03:29:48 IST" finished-at="2023-02-21T03:29:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod1 -->
+        <test-method status="PASS" signature="afterClass1()[pri:0, instance:testngDay2.TestngAnnotations3@4c762604]" name="afterClass1" is-config="true" duration-ms="1" started-at="2023-02-21T03:29:48 IST" finished-at="2023-02-21T03:29:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass1 -->
+        <test-method status="PASS" signature="afterTestCase1()[pri:0, instance:testngDay2.TestngAnnotations3@4c762604]" name="afterTestCase1" is-config="true" duration-ms="2" started-at="2023-02-21T03:29:48 IST" finished-at="2023-02-21T03:29:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestCase1 -->
+      </class> <!-- testngDay2.TestngAnnotations3 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15467" started-at="2023-02-15T18:10:50 IST" finished-at="2023-02-15T18:11:05 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15467" started-at="2023-02-15T18:10:50 IST" finished-at="2023-02-15T18:11:05 IST">
+      <class name="orangeHrmTestCases.OrangeHrmTestCase">
+        <test-method status="PASS" signature="BrawserLaunchAndPageFactorySetup()[pri:0, instance:orangeHrmTestCases.OrangeHrmTestCase@279ad2e3]" name="BrawserLaunchAndPageFactorySetup" is-config="true" duration-ms="13209" started-at="2023-02-15T18:10:50 IST" finished-at="2023-02-15T18:11:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrawserLaunchAndPageFactorySetup -->
+        <test-method status="PASS" signature="orangeHrmLogintestCase1()[pri:0, instance:orangeHrmTestCases.OrangeHrmTestCase@279ad2e3]" name="orangeHrmLogintestCase1" duration-ms="1903" started-at="2023-02-15T18:11:03 IST" finished-at="2023-02-15T18:11:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orangeHrmLogintestCase1 -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:orangeHrmTestCases.OrangeHrmTestCase@279ad2e3]" name="CloseBrowser" is-config="true" duration-ms="245" started-at="2023-02-15T18:11:05 IST" finished-at="2023-02-15T18:11:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- orangeHrmTestCases.OrangeHrmTestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

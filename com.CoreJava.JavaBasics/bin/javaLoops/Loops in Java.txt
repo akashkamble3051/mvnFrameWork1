@@ -1,0 +1,40 @@
+Loops in Java
+ Java support three type of loops
+	1] for loop  {for-each loop, it will be discussed after array topic dicussion}
+	2] while loop
+	3] do-while loop
+
+1] for loop
+	syntax:
+	for(declaration;condition;operation)
+	{
+		statements
+	}
+	
+	declaration : executed only once in the begining
+	condition : executed/checked before executing the loop every time
+	operation : executed after the loop body is executed
+	
+	when to use for loop: if number of iterations are known to us, then we can use for loop
+	
+2] while loop (entry control loop)
+	syntax:
+	while(condition)
+	{
+		statements
+	}
+	
+3] do-while loop (exit control loop)
+	syntax:
+	do
+	{
+		statements
+	}while(condition);
+	
+Que: What is the difference between while & do-while loop
+	while 		--> while loop body is executed only if condition is true
+	do-while 	--> do-while loop body is executed atleast once 
+					irrespective of condition
+	
+while loop is the faster loop, it is prefer when we need to have fast execution
+if we are required declare and perform some operation along with checking the condition then for loop is preferred
