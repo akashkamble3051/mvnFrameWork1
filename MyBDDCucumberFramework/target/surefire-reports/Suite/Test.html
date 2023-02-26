@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Feb 24 15:34:25 IST 2023</td>
+<td>Started on:</td><td>Sun Feb 26 12:18:24 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>127 seconds (127627 ms)</td>
+<tr><td>Total time:</td><td>145 seconds (145001 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
@@ -76,8 +76,64 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='suitRunner.SmokeSuitVtiger.runScenario()'><b>runScenario</b><br>Test class: suitRunner.SmokeSuitVtiger<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the delete funtionality of compaign", "Optional[VTiger compaign create delete functionality test scenarios]"</td>
-<td></td>
-<td>112</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;#&quot; class=&quot;userName dropdown-toggle pull-right&quot; data-toggle=&quot;dropdown&quot; role=&quot;button&quot;&gt;...&lt;/a&gt; is not clickable at point (1347, 21). Other element would receive the click: &lt;div id=&quot;messageBar&quot; class=&quot;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=110.0.5481.105)
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-IA7RCF1&apos;, ip: &apos;192.168.43.132&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e3b3c0d16ad8eefd27d5bb22b0d46bc0, clickElement {id=bc6333d8-26b6-4c36-b16c-eea285e796f7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.105, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55021}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55021/devtoo..., se:cdpVersion: 110.0.5481.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (e3b3c0d16ad8eefd27d5bb22b0d46bc0)] -&gt; xpath: //a[@class=&apos;userName dropdown-toggle pull-right&apos;]]
+Session ID: e3b3c0d16ad8eefd27d5bb22b0d46bc0
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy29.click(Unknown Source)
+	at utility.SeleniumUtility.clickOnElement(SeleniumUtility.java:123)
+	at vTiger.Pages.VtigerHomePage.signOut(VtigerHomePage.java:37)
+	at stepDefinition.VTigerCompaignTest.verify_that_all_the_created_compaings_are_deleted(VTigerCompaignTest.java:114)
+	at ?.Verify that all the created compaings are deleted(file:///C:/Users/HP/eclipse-workspace/MyBDDCucumberFramework/src/test/resources/features/VTigerCompaign.feature:24)
+... Removed 7 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1320791629", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1320791629'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;#&quot; class=&quot;userName dropdown-toggle pull-right&quot; data-toggle=&quot;dropdown&quot; role=&quot;button&quot;&gt;...&lt;/a&gt; is not clickable at point (1347, 21). Other element would receive the click: &lt;div id=&quot;messageBar&quot; class=&quot;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=110.0.5481.105)
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-IA7RCF1&apos;, ip: &apos;192.168.43.132&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e3b3c0d16ad8eefd27d5bb22b0d46bc0, clickElement {id=bc6333d8-26b6-4c36-b16c-eea285e796f7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.105, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55021}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55021/devtoo..., se:cdpVersion: 110.0.5481.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (e3b3c0d16ad8eefd27d5bb22b0d46bc0)] -&gt; xpath: //a[@class=&apos;userName dropdown-toggle pull-right&apos;]]
+Session ID: e3b3c0d16ad8eefd27d5bb22b0d46bc0
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at sun.reflect.GeneratedMethodAccessor40.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy29.click(Unknown Source)
+	at utility.SeleniumUtility.clickOnElement(SeleniumUtility.java:123)
+	at vTiger.Pages.VtigerHomePage.signOut(VtigerHomePage.java:37)
+	at stepDefinition.VTigerCompaignTest.verify_that_all_the_created_compaings_are_deleted(VTigerCompaignTest.java:114)
+	at ?.Verify that all the created compaings are deleted(file:///C:/Users/HP/eclipse-workspace/MyBDDCucumberFramework/src/test/resources/features/VTigerCompaign.feature:24)
+</pre></div></td>
+<td>129</td>
 <td>suitRunner.SmokeSuitVtiger@25359ed8</td></tr>
 </table><p>
 </body>

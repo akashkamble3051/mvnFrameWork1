@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="TestSuite" time="112.734" errors="0" skipped="0">
+<testsuite tests="1" failures="1" name="TestSuite" time="129.751" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
@@ -27,9 +27,9 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\HP\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3885709029913113509.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\HP\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5773055634388164801.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk1.8.0_202/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_202/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_202/bin/../jre/lib/amd64;C:\Program Files\Java\jdk1.8.0_202\bin;C:\apache-maven-3.8.7\bin;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;;C:\Users\HP\Downloads\Software Testing Tools\eclipse;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk1.8.0_202/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_202/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_202/bin/../jre/lib/amd64;C:\Program Files\Java\jdk1.8.0_202\bin;C:\apache-maven-3.8.7\bin;C:\Program Files\Git\cmd;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;;C:\Users\HP\Downloads\Software Testing Tools\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -44,7 +44,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_202\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -61,5 +61,131 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="suitRunner.SmokeSuitVtiger" name="runScenario" time="112.734"/>
+  <testcase classname="suitRunner.SmokeSuitVtiger" name="runScenario" time="129.751">
+    <failure message="element click intercepted: Element &lt;a href=&quot;#&quot; class=&quot;userName dropdown-toggle pull-right&quot; data-toggle=&quot;dropdown&quot; role=&quot;button&quot;&gt;...&lt;/a&gt; is not clickable at point (1347, 21). Other element would receive the click: &lt;div id=&quot;messageBar&quot; class=&quot;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=110.0.5481.105)
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-IA7RCF1&apos;, ip: &apos;192.168.43.132&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e3b3c0d16ad8eefd27d5bb22b0d46bc0, clickElement {id=bc6333d8-26b6-4c36-b16c-eea285e796f7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.105, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55021}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55021/devtoo..., se:cdpVersion: 110.0.5481.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (e3b3c0d16ad8eefd27d5bb22b0d46bc0)] -&gt; xpath: //a[@class=&apos;userName dropdown-toggle pull-right&apos;]]
+Session ID: e3b3c0d16ad8eefd27d5bb22b0d46bc0" type="org.openqa.selenium.ElementClickInterceptedException">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;#&quot; class=&quot;userName dropdown-toggle pull-right&quot; data-toggle=&quot;dropdown&quot; role=&quot;button&quot;&gt;...&lt;/a&gt; is not clickable at point (1347, 21). Other element would receive the click: &lt;div id=&quot;messageBar&quot; class=&quot;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=110.0.5481.105)
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-IA7RCF1&apos;, ip: &apos;192.168.43.132&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e3b3c0d16ad8eefd27d5bb22b0d46bc0, clickElement {id=bc6333d8-26b6-4c36-b16c-eea285e796f7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.105, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55021}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55021/devtoo..., se:cdpVersion: 110.0.5481.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (e3b3c0d16ad8eefd27d5bb22b0d46bc0)] -&gt; xpath: //a[@class=&apos;userName dropdown-toggle pull-right&apos;]]
+Session ID: e3b3c0d16ad8eefd27d5bb22b0d46bc0
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at sun.reflect.GeneratedMethodAccessor40.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy29.click(Unknown Source)
+	at utility.SeleniumUtility.clickOnElement(SeleniumUtility.java:123)
+	at vTiger.Pages.VtigerHomePage.signOut(VtigerHomePage.java:37)
+	at stepDefinition.VTigerCompaignTest.verify_that_all_the_created_compaings_are_deleted(VTigerCompaignTest.java:114)
+	at ✽.Verify that all the created compaings are deleted(file:///C:/Users/HP/eclipse-workspace/MyBDDCucumberFramework/src/test/resources/features/VTigerCompaign.feature:24)
+</failure>
+    <system-out>
+@smoke @Rerun
+Scenario: Test the delete funtionality of compaign               &amp;#27;[90m# src/test/resources/features/VTigerCompaign.feature:20&amp;#27;[0m
+First Before Hook
+Second Before Hook
+Rerun specific hook
+Background started
+Sceanrio outline starts
+Background started
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mUser is on the Vtiger login page&amp;#27;[0m                         &amp;#27;[90m# stepDefinition.VTigerCompaignTest.user_is_on_the_vtiger_login_page()&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mUser login with valid credentials&amp;#27;[0m                          &amp;#27;[90m# stepDefinition.VTigerCompaignTest.user_login_with_valid_credentials()&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mUser navigates to compaign page&amp;#27;[0m                            &amp;#27;[90m# stepDefinition.VTigerCompaignTest.user_navigates_to_compaign_page()&amp;#27;[0m
+Delete compaign scenario
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mUser click on select all compaign checkbox&amp;#27;[0m                &amp;#27;[90m# stepDefinition.VTigerCompaignTest.user_click_on_select_all_compaign_checkbox()&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mUser click on delete button&amp;#27;[0m                                &amp;#27;[90m# stepDefinition.VTigerCompaignTest.user_click_on_delete_button()&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mUser click on confirm delete button appeared on the pop up&amp;#27;[0m &amp;#27;[90m# stepDefinition.VTigerCompaignTest.user_click_on_confirm_delete_button_appeared_on_the_pop_up()&amp;#27;[0m
+  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mVerify that all the created compaings are deleted&amp;#27;[0m         &amp;#27;[90m# stepDefinition.VTigerCompaignTest.verify_that_all_the_created_compaings_are_deleted()&amp;#27;[0m
+      &amp;#27;[31morg.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;#&quot; class=&quot;userName dropdown-toggle pull-right&quot; data-toggle=&quot;dropdown&quot; role=&quot;button&quot;&gt;...&lt;/a&gt; is not clickable at point (1347, 21). Other element would receive the click: &lt;div id=&quot;messageBar&quot; class=&quot;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=110.0.5481.105)
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-IA7RCF1&apos;, ip: &apos;192.168.43.132&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e3b3c0d16ad8eefd27d5bb22b0d46bc0, clickElement {id=bc6333d8-26b6-4c36-b16c-eea285e796f7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.105, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55021}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55021/devtoo..., se:cdpVersion: 110.0.5481.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (e3b3c0d16ad8eefd27d5bb22b0d46bc0)] -&gt; xpath: //a[@class=&apos;userName dropdown-toggle pull-right&apos;]]
+Session ID: e3b3c0d16ad8eefd27d5bb22b0d46bc0
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at sun.reflect.GeneratedMethodAccessor40.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy29.click(Unknown Source)
+	at utility.SeleniumUtility.clickOnElement(SeleniumUtility.java:123)
+	at vTiger.Pages.VtigerHomePage.signOut(VtigerHomePage.java:37)
+	at stepDefinition.VTigerCompaignTest.verify_that_all_the_created_compaings_are_deleted(VTigerCompaignTest.java:114)
+	at âœ½.Verify that all the created compaings are deleted(file:///C:/Users/HP/eclipse-workspace/MyBDDCucumberFramework/src/test/resources/features/VTigerCompaign.feature:24)
+&amp;#27;[0m
+
+    Embedding Test_the_delete_funtionality_of_compaign [image/png 38879 bytes]
+
+First After Hook
+Second After Hook
+</system-out>
+    <system-err>SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 60349
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1677394151.279][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 26, 2023 12:19:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Feb 26, 2023 12:19:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: a no-op implementation
+Feb 26, 2023 12:19:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 110.
+Feb 26, 2023 12:19:12 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.2` where the version (&quot;v86&quot;) matches the version of the chromium-based browser you&apos;re using and the version number of the artifact is the same as Selenium&apos;s.
+Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 63087
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1677394198.883][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 26, 2023 12:19:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Feb 26, 2023 12:19:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: a no-op implementation
+Feb 26, 2023 12:19:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 110.
+Feb 26, 2023 12:19:59 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.2` where the version (&quot;v86&quot;) matches the version of the chromium-based browser you&apos;re using and the version number of the artifact is the same as Selenium&apos;s.
+</system-err>
+  </testcase>
 </testsuite>
