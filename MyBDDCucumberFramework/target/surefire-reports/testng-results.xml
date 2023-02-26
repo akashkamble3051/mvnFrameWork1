@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="145001" started-at="2023-02-26T12:18:24 IST" finished-at="2023-02-26T12:20:49 IST">
+  <suite name="Suite" duration-ms="68510" started-at="2023-02-26T14:49:15 IST" finished-at="2023-02-26T14:50:23 IST">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:suitRunner.SmokeSuitVtiger@25359ed8]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:suitRunner.SmokeSuitVtiger@731f8236]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Test" duration-ms="145001" started-at="2023-02-26T12:18:24 IST" finished-at="2023-02-26T12:20:49 IST">
+    <test name="Test" duration-ms="68510" started-at="2023-02-26T14:49:15 IST" finished-at="2023-02-26T14:50:23 IST">
       <class name="suitRunner.SmokeSuitVtiger">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:suitRunner.SmokeSuitVtiger@25359ed8]" name="setUpClass" is-config="true" duration-ms="3879" started-at="2023-02-26T12:18:25 IST" finished-at="2023-02-26T12:18:28 IST">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:suitRunner.SmokeSuitVtiger@731f8236]" name="setUpClass" is-config="true" duration-ms="3788" started-at="2023-02-26T14:49:15 IST" finished-at="2023-02-26T14:49:19 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:suitRunner.SmokeSuitVtiger@25359ed8]" name="runScenario" duration-ms="129721" started-at="2023-02-26T12:18:28 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-26T12:20:38 IST">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:suitRunner.SmokeSuitVtiger@731f8236]" name="runScenario" duration-ms="56887" started-at="2023-02-26T14:49:19 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-26T14:50:16 IST">
           <params>
             <param index="0">
               <value>
@@ -27,57 +27,10 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <a href="#" class="userName dropdown-toggle pull-right" data-toggle="dropdown" role="button">...</a> is not clickable at point (1347, 21). Other element would receive the click: <div id="messageBar" class="">...</div>
-  (Session info: chrome=110.0.5481.105)
-Build info: version: '4.1.2', revision: '9a5a329c5a'
-System info: host: 'DESKTOP-IA7RCF1', ip: '192.168.43.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e3b3c0d16ad8eefd27d5bb22b0d46bc0, clickElement {id=bc6333d8-26b6-4c36-b16c-eea285e796f7}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.105, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55021}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55021/devtoo..., se:cdpVersion: 110.0.5481.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (e3b3c0d16ad8eefd27d5bb22b0d46bc0)] -> xpath: //a[@class='userName dropdown-toggle pull-right']]
-Session ID: e3b3c0d16ad8eefd27d5bb22b0d46bc0]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="#" class="userName dropdown-toggle pull-right" data-toggle="dropdown" role="button">...</a> is not clickable at point (1347, 21). Other element would receive the click: <div id="messageBar" class="">...</div>
-  (Session info: chrome=110.0.5481.105)
-Build info: version: '4.1.2', revision: '9a5a329c5a'
-System info: host: 'DESKTOP-IA7RCF1', ip: '192.168.43.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e3b3c0d16ad8eefd27d5bb22b0d46bc0, clickElement {id=bc6333d8-26b6-4c36-b16c-eea285e796f7}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.105, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55021}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55021/devtoo..., se:cdpVersion: 110.0.5481.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (e3b3c0d16ad8eefd27d5bb22b0d46bc0)] -> xpath: //a[@class='userName dropdown-toggle pull-right']]
-Session ID: e3b3c0d16ad8eefd27d5bb22b0d46bc0
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-at sun.reflect.GeneratedMethodAccessor40.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-at com.sun.proxy.$Proxy29.click(Unknown Source)
-at utility.SeleniumUtility.clickOnElement(SeleniumUtility.java:123)
-at vTiger.Pages.VtigerHomePage.signOut(VtigerHomePage.java:37)
-at stepDefinition.VTigerCompaignTest.verify_that_all_the_created_compaings_are_deleted(VTigerCompaignTest.java:114)
-at ✽.Verify that all the created compaings are deleted(file:///C:/Users/HP/eclipse-workspace/MyBDDCucumberFramework/src/test/resources/features/VTigerCompaign.feature:24)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:suitRunner.SmokeSuitVtiger@25359ed8]" name="tearDownClass" is-config="true" duration-ms="11207" started-at="2023-02-26T12:20:38 IST" finished-at="2023-02-26T12:20:49 IST">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:suitRunner.SmokeSuitVtiger@731f8236]" name="tearDownClass" is-config="true" duration-ms="7699" started-at="2023-02-26T14:50:16 IST" finished-at="2023-02-26T14:50:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
